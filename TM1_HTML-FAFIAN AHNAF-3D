@@ -11,29 +11,57 @@
             text-align: center;
         }
         h1 {
-            color: #0077b6;
+                color: #0077b6;
         }
         h2 {
             text-align: start;
         }
         p {
             font-size: 16px;
-            text-align: start;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <h1>Selamat Datang di Halaman Statistik Pendidikan</h1>
+    <h1>Selamat Datang di Halaman Web Statistik Pendidikan</h1>
+  <img src="https://goodstats.id/img/infographics/images/tingkat-pendiidkan-masyarakat-indonesia-Dn8pcpuO66.jpeg?w=712&h=890" alt="Grafik Statistik Pendidikan" align=”middle”/ width="400" height="300">
     
-    <img src="https://goodstats.id/img/infographics/images/tingkat-pendiidkan-masyarakat-indonesia-Dn8pcpuO66.jpeg?w=712&h=890" alt="Grafik Statistik Pendidikan" align=”middle”/ width="400" height="300">
-    
-    <p>Di halaman ini, Anda akan menemukan berbagai informasi tentang statistik  pendidikan di Indonesia tahun 2023.</p>
+    <p>Di halaman ini, Anda akan menemukan berbagai informasi statistik tentang pendidikan.</p>
     
     <h2>Data Pendidikan</h2>
     
     <p>Kami memiliki data jumlah sekolah di Indonesia tahun 2023 yang dikeluarkan oleh Badan Pusat Statistik (BPS).</p>
     
-    <a href="https://indonesiabaik.id/infografis/berapa-jumlah-sekolah-di-indonesia-2023" target="_blank" style="text-align: left !important"><div style="text-align: left;">Jumlah Sekolah di Indonesia</div></a>
+    <a href="https://indonesiabaik.id/infografis/berapa-jumlah-sekolah-di-indonesia-2023" target="_blank" style= align= middle"/ width !important"><div style= align="middle"/ width>Jumlah Sekolah di Indonesia</div></a>
+    
+    <p>Kami juga memiliki data pendidikan Indonesia yang mencakup jumlah siswa, rasio guru-siswa, dan tingkat kelulusan.</p>
+    <table>
+        <tr>
+            <th>Data Pendidikan</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>Jumlah Siswa</td>
+            <td>44,19 Juta</td>
+        </tr>
+        <tr>
+            <td>Rasio Guru-Siswa</td>
+            <td>1:20</td>
+        </tr>
+        <tr>
+            <td>Tingkat Kelulusan</td>
+            <td>90%</td>
+        </tr>
+    </table>
     
     <h2>Grafik Statistik</h2>
     
@@ -45,8 +73,54 @@
     
     <p>Jika Anda ingin mengeksplorasi lebih lanjut, silakan kunjungi link berikut:</p>
     
-   <a href="https://www.kompas.id/baca/humaniora/2023/06/21/rpjm" target="_blank">
-    <div style="text-align: left;">Sistem Pendidikan Indonesia</div>
-</a>
+    <a href="https://www.contohlinkpendidikan.com" target="_blank">Website Pendidikan</a>
+    
+  
+      
+      
+    <h2>Formulir Kontak</h2>
+    
+    <form action="proses_formulir.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+        <br>
+        
+        <label for="jenis-kelamin">Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="jenis-kelamin" value="laki-laki" required>
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan" required>
+        <label for="perempuan">Perempuan</label>
+        <br>
+        
+        <label for="pendidikan-terakhir">Pendidikan Terakhir:</label>
+        <select id="pendidikan-terakhir" name="pendidikan-terakhir" required>
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma">SMA</option>
+            <option value="kuliah">Kuliah</option>
+        </select>
+        <br>
+        
+        <input type="submit" value="Kirim">
+    </form>
+    
+    </div>
+    
+    <!-- 5. HTML style -->
+    <!-- Menentukan gaya dan tata letak halaman. -->
+    
+    <!-- 8. HTML image -->
+    <!-- Menampilkan gambar di halaman web. -->
+    <footer>
+        <p>Copyright &copy; 2023 Statistik Pendidikan Indonesia | Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi 2023 |</p>
+    </footer>
 </body>
 </html>
